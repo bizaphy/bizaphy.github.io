@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 70%;
+  margin: 0 auto;
+  height: 3rem;
+  color: #1b3d40;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #585858;
+}
+
+.banner {
+  background-image: url("../img/img-main.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.banner h1 {
+  color: #ffffff;
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.nav-logo {
+  margin-left: 10%;
+  margin-right: 3%;
+}
+
+.nav-link {
+  margin-right: 1rem;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 5rem 5rem 2rem;
+}
+
+.boton--last {
+  margin-bottom: 10rem;
+}
+
+.boton a {
+  background-color: black;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 5ch;
+}
+
+.cards-venta,
+.cards-renta,
+.cards-venta-index,
+.cards-renta-index {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 30%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card .name {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.card p {
+  padding: 0 10px;
+  margin-bottom: 0.2rem;
+}
+
+.permisos {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.mascotas-no,
+.fumadores-no {
+  color: red;
+  font-size: 0.8rem;
+  margin-right: 1rem;
+}
+
+.mascotas-si,
+.fumadores-si {
+  color: green;
+  font-size: 0.8rem;
+  margin-right: 1rem;
+}
+
+.description {
+  color: #585858;
+  font-size: 0.9rem;
+  margin-bottom: 1.4rem !important;
+}
+
+.espacio {
+  height: 10rem;
+}
