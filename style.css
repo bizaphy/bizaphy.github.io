@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: rgb(27, 27, 27);
+  padding: 2rem;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.titulo {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.input-container {
+  width: 100%;
+}
+
+input {
+  width: 50rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.tareas-container {
+  display: flex;
+
+  background-color: rgb(63, 63, 63);
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.lista-tareas-container {
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.lista-tareas-container-titulo {
+  margin-bottom: 1rem;
+}
+
+.lista-tareas-container-titulo {
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+#lista-tareas {
+  color: white;
+  margin-left: 0.5rem;
+  padding: 0.3rem;
+}
+
+#lista-tareas th {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+  padding-right: 2rem;
+}
+
+#lista-tareas td {
+  padding: 0.5rem;
+}
+
+.tarea-texto {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.tarea-texto i {
+  margin-right: 0.2rem;
+}
+
+.completado {
+  color: green;
+  font-weight: bold;
+}
+
+.pendiente,
+i.pendiente {
+  color: red;
+}
+
+.tarea-texto button {
+  margin-left: 1rem;
+}
+
+.container-contador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* botones */
+button {
+  padding: 0.5rem;
+  color: white;
+  border: black solid 1px;
+}
+
+button.eliminar {
+  background-color: red;
+}
+
+button.cambiar {
+  background-color: rgb(0, 0, 0);
+}
+
+button.input-boton-agregar {
+  background-color: rgb(42, 42, 42);
+}

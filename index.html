@@ -1,42 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="./src/assets/css/style.css" rel="stylesheet" />
-  <script
-    src="https://kit.fontawesome.com/1055036805.js"
-    crossorigin="anonymous"
-  ></script>
   <head>
-    <title>Tarjetas de Venta</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tareas</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="checkmark.ico" />
+    <script
+      src="https://kit.fontawesome.com/1055036805.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <nav>
-      <div class="nav-logo">Inmobiliaria BZ</div>
-      <div class="nav-link"><a href="./index.html">Home</a></div>
-      <div class="nav-link">
-        <a href="./propiedades_venta.html">En venta</a>
-      </div>
-      <div class="nav-link">
-        <a href="./propiedades_alquiler.html">Alquiler</a>
-      </div>
-    </nav>
-    <div class="banner"><h1>Propiedades</h1></div>
     <main>
-      <div class="cards-venta-index"></div>
-      <div class="boton">
-        <a href="./propiedades_venta.html"
-          >Ver todas las propiedades en venta</a
-        >
+      <p class="titulo">Lista de tareas</p>
+      <p>Nueva tarea</p>
+      <div class="input-container">
+        <input id="input-tarea" />
+        <button class="input-boton-agregar">Agregar</button>
       </div>
-      <div class="cards-renta-index"></div>
-      <div class="boton boton--last">
-        <a href="./propiedades_alquiler.html"
-          >Ver todas las propiedades en renta</a
-        >
+      <div class="tareas-container">
+        <div class="lista-tareas-container">
+          <p class="lista-tareas-container-titulo">Tareas:</p>
+          <div id="lista-tareas"></div>
+        </div>
       </div>
+      <div class="container-contador">
+        <span id="cuenta-tareas"> </span>
+        <span id="cuenta-completadas"> </span>
+      </div>
+      <script src="./script2.js"></script>
     </main>
-
-    <script src="./src/assets/js/script.js"></script>
   </body>
 </html>
