@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cambio CLP</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div class="titulo">Consulta de indicadores económicos</div>
+
+      <div class="container-seleccion">
+        <label for="amount-clp" class="ingreso-clp">Monto en CLP:</label>
+        <input type="number" id="amount-clp" value="0" />
+        <p class="seleccion-moneda">Escoge la moneda para convertir:</p>
+        <select id="currency">
+          <option value="euro">Euros</option>
+          <option value="dolar">Dólares</option>
+          <option value="uf">UF</option>
+        </select>
+        <button class="boton-buscar">Buscar</button>
+      </div>
+
+      <div class="convertido"></div>
+      <canvas id="grafico"></canvas>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
